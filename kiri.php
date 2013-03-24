@@ -37,6 +37,7 @@ if ($n=='1'||$n==''||$n=='5')
 				}
 				?>
 				</ul>
+				<div align="right"><a href="?bar=3">Lainnya >>></a></div>
 			</div>
 		</div>
 <?php

@@ -27,7 +27,10 @@
 				</div>
 			</div>
 		<?php
-		}
+		}?>
+		
+			<div align="right"><a href="?bar=3">Baca Lainnya>>></a></div>
+		<?php
 	}
 	elseif ($n=='berita')
 	{

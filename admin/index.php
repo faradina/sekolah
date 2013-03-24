@@ -1,70 +1,42 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-
-Title      : Newfangled
-Version    : 1.0
-Released   : 20070331
-Description: A three-column fixed-width template ideal for 1024x768 pixel resolution. Suitable for blogs and small business websites.
-
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>:: SMP Muhammadiyah 2 Mlati ::</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<meta name="google-translate-customization" content="c60ecd9d75c84ed1-eed344bb1cba429f-gf50e3fbfb25a9b4e-12"></meta>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Admin MOS Template</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Copyright" content="arirusmanto.com">
+<meta name="description" content="Admin MOS Template">
+<meta name="keywords" content="Admin Page">
+<meta name="author" content="Ari Rusmanto">
+<meta name="language" content="Bahasa Indonesia">
+
+<link rel="shortcut icon" href="stylesheet/img/devil-icon.png"> <!--Pemanggilan gambar favicon-->
+<link rel="stylesheet" type="text/css" href="mos-css/mos-style.css"> <!--pemanggilan file css-->
 </head>
+
 <body>
 <div id="header">
-	<div id="logo">
-		<h1><a href="#">Newfangled</a></h1>
-		<h2><a href="http://www.freecsstemplates.org/">By Free CSS Templates</a></h2>
-	</div>
-	<div id="menu">
-		<ul>
-		</ul>
-	</div>
-</div>
-<div id="content">
-	<div id="sidebar">
-		<?php include "kiri.php";?>
-		<!-- end #updates -->
-	</div>
-	<!-- end #sidebar -->
-	<div id="main">
-		<?php include "tengah.php";?>
-	</div>
-	<!-- end #main -->
-	<div id="sidebar2">
-		<div id="sponsors" class="boxed">
-			<?php include "kanan.php";?>
-			<div class="title">
-				<h2>Sponsors</h2>
-			</div>
-			<div class="content">
-				<ul>
-					<li> <a href="#">In posuere eleifend</a></li>
-					<li> <a href="#">Quisque dictum </a></li>
-					<li> <a href="#">Donec leo, vivamus </a></li>
-					<li> <a href="#">Nam pede erat porta </a></li>
-					<li> <a href="#">Vivamus fermentum </a></li>
-				</ul>
-			</div>
+	<div class="inHeader">
+		<div class="mosAdmin">
+		Hallo, Administrator<br>
+		<a href="../index.php">Lihat website</a> | <a href="">Help</a> | <a href="logout.php">Keluar</a>
 		</div>
-		<!-- end #sponsors -->
-		<div id="ad120x600"><a href="#"><img src="images/ad_120x600.jpg" alt="" width="120" height="600" /></a></div>
+	<div class="clear"></div>
 	</div>
-	<div style="clear: both;">&nbsp;</div>
 </div>
-<!-- end #sidebar2 -->
-<!-- end #content -->
+
+<div id="wrapper">
+	<div id="leftBar">
+	<ul>
+		<?php include "kiri.php";?>
+	</ul>
+	</div>
+	<div id="rightContent">
+		<?php include "kanan.php"?>
+	</div>
+<div class="clear"></div>
 <div id="footer">
-	<p id="legal">Copyright &copy; 2013 TIF'10-16-56. All Rights Reserved. Designed by Riawan & Faradina</p>
+	&copy; 2013 MOS css template | <a href="../index.php">SMP Muhammadiyah 2 Mlati</a> | design <a href="http://arirusmanto.com" rel="nofollow" target="_blank">arirusmanto.com</a><br>
+	redesign <a href="#">UIN TIF10-Riawan-Faradina</a> 
+</div>
 </div>
 </body>
 </html>

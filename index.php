@@ -44,18 +44,7 @@ Description: A three-column fixed-width template ideal for 1024x768 pixel resolu
 	<div id="sidebar2">
 		<div id="sponsors" class="boxed">
 			<?php include "kanan.php";?>
-			<div class="title">
-				<h2>Sponsors</h2>
-			</div>
-			<div class="content">
-				<ul>
-					<li> <a href="#">In posuere eleifend</a></li>
-					<li> <a href="#">Quisque dictum </a></li>
-					<li> <a href="#">Donec leo, vivamus </a></li>
-					<li> <a href="#">Nam pede erat porta </a></li>
-					<li> <a href="#">Vivamus fermentum </a></li>
-				</ul>
-			</div>
+			
 		</div>
 		<!-- end #sponsors -->
 		<div id="ad120x600"><a href="#"><img src="images/ad_120x600.jpg" alt="" width="120" height="600" /></a></div>
